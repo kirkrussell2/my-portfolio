@@ -1,0 +1,193 @@
+
+<section id="cv">
+    <div class="container">
+        <h2><strong>Course Work & Experiences</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>Education</strong></h4>
+
+                <ul class="timeline">
+                  <li>
+                    <h5><strong>Undergraduate Mechanical Engineering</strong> </h5>
+                    <em class="font-italic">Bachelors of Science<br> Colorado State University, CO</em>
+                    <p class="year p-2 d-flex justify-content-center">2019 - 2023</p>
+                  </li>
+                  <li>
+                    <h5>Building Ai</h5>
+                    <em class="font-italic">Intro to Ai programming and development <br> University of Helsenki, Finland</em>
+                    <p class="year p-2 d-flex justify-content-center">2021 - 2022</p>
+                  </li>
+                  <li>
+                    <h5>Google Project Management Certificate</h5>
+                    <em class="font-italic">Project Management Certificate <br> Google, Coursera</em>
+                    <p class="year p-2 d-flex justify-content-center">2021 - 2022</p>
+                  </li>
+                  <li>
+                    <h5>Templeton High School</h5>
+                    <em class="font-italic">GED <br> Templeton, CA</em>
+                    <p class="year p-2 d-flex justify-content-center">2015 - 2019</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>Experiences</strong></h4>
+                <ul class="timeline">
+                  <li>
+                    <h5>Flare Data Manager</h5>
+                    <em>Movement For Life, CA</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2018 - present</p>
+                      <button (click)="detailOnClick('flare_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="flareIsShown">
+                      As a manager you have to wear many different kinds of hats; here are a few of the many I wear on a daily basis:<br>
+                      <strong>Hat 1:</strong> Team Check-Ins and project briefings<br>
+                      <strong>Hat 2:</strong> Day to day Flare data updates<br>
+                      <strong>Hat 3:</strong> Meeting with key stakeholders  about current project and identify projects that are coming up that we need to begin prepping and planning for<br>
+                      <strong>Technologies:</strong>  MadCap Flare, HTML5, CSS, Python, Excel, G-Suite, CMD
+                    </p>
+                  </li>
+                  <li>
+                    <h5>Front-End Developer, Contract</h5>
+                    <em>Nita beckComm Communications</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2021 - 2021 (2 months)</p>
+                      <button (click)="detailOnClick('frontend_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="frontendIsShown">
+                      <strong>Achievement 1:</strong> Collaborated with a team of documentation writers to make XML, HTML, and CSS adjustments for Madcap Flare internal documentation and other company projects.<br>
+                      <strong>Technologies:</strong> HTML, CSS, MadCap Flare, Jira, GitLab
+                    </p>
+                  </li>
+                  <li>
+                    <h5>Mechanical Engineer/ Robotics Intern</h5>
+                    <em>Wolf Robotics, Fort Collins, CO</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2021 - 2021 (6 months)</p>
+                      <button (click)="detailOnClick('me_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="MeIsShown">
+                      <strong>Achievement 1:</strong> Operated with assembly technology team and automation engineers to build 12+ unique, industrial-sized automated robotic welders each with 1,000’s of custom components, focusing primarily on laser cladding systems.<br>
+                      <strong>Achievement 2:</strong>Undertook the initial setup and building of smaller systems individually before bringing on specialized team members for wiring and robot program checks.<br>
+                      <strong>Technologies:</strong>  SolidWorks, Lathe, Mill, Robot Studio
+                    </p>
+                  </li>
+                  <li>
+                    <h5>Flare UI Clean-Up, Contract</h5>
+                    <em>Smart Output, UT</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2021 - 2021 (1 month)</p>
+                      <button (click)="detailOnClick('freelance_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="freelanceIsShown">
+                      <strong>Achievement 1:</strong> Overhauled  100’s of internal documentation for a migration from Legacy into Flare to create a more optimized user interface.<br>
+                      <strong>Technologies:</strong> HTML, CSS, MadCap Flare, Github, Sourcetree
+                    </p>
+                  </li>
+                  <li>
+                    <h5>Molly and Toni's Home</h5>
+                    <em>Sacramento, CA</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2020 - 2021(3 months)</p>
+                      <button (click)="detailOnClick('mth_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="mthIsShown">
+                      <strong>Goal 1:</strong> Met with owners and created project outline and plan for their vision of their website.<br>
+                      <strong>Goal 2:</strong> Used the AGILE methodology for continuously creating and revising project until key stakeholders were satisfied with the outcome of the product.<br>
+                      <strong>Technologies:</strong>  Jira, Excel, Wix, CSS, HTML, JavaScript
+                    </p>
+                  </li>
+                  <li>
+                    <h5>Nunno Corp</h5>
+                    <em>Paso Robles, CA</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2018 - 2018 (5 months)</p>
+                      <button (click)="detailOnClick('stage_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="stageIsShown">
+                      <strong>Goal:</strong> Aided in technology consulting for winery related development for web based applications.<br>
+                      <strong>Technologies:</strong> Python, HTML5, CSS, Excel
+                    </p>
+                  </li>
+                  <li>
+                    <h5>IT Support Aide</h5>
+                    <em>Templeton Unified School District, CA</em>
+                    <div class="d-flex flex-row">
+                      <p class="year p-2 d-flex justify-content-center">2015 - 2018</p>
+                      <button (click)="detailOnClick('alternance_detail')" type="button" class="btn btn-primary">
+                        +
+                        Detail
+                      </button>
+                    </div>
+                    <p *ngIf="alternanceIsShown">
+                      <strong>Mission 1:</strong> Advised 250+ staff as a student helping to troubleshoot desktop and network issues
+                      .<br>
+                      <strong>Mission 2:</strong> Assembled and rebuilt 500+ desktops with new CPUs and reimaged 400+ iPads for students and faculty use on the school’s network .<br>
+                      <strong>Technologies:</strong>  Adnroid, IOS, Java, hardware installation
+                    </p>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="container row">
+                    <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>Langues</strong></h4>
+                        <div class="noProgress langue">
+                            <span class=""><img src="assets/images/spain-flag-icon-13.jpg" width="20"
+                                    alt="Intermediate School Knwoledge"><strong> Spanish</strong> <i class="val">
+                                    Intermediate</i></span>
+                        </div>
+
+                        <div class="noProgress langue">
+                            <span class=""><img src="assets/images/round-united-states-of-america-flag-sticker-1541455156.6120026.png" width="20"
+                                    alt="drapeau du royaume uni"><strong> Englsih</strong> <i class="val"> Fluent</i></span>
+                        </div>
+
+                
+
+                    </div>
+                </div>
+                <div class="container row">
+                    <div class="mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>Hobbies</strong></h4>
+                        <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> Sport</strong> <i class="val"> Basketball and Track</i>
+                            </span>
+                        </div>
+
+                        <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="planeIcon"></fa-icon><strong> Traveling</strong> <i class="val">
+                                    19+ countries visited</i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>

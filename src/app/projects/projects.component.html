@@ -1,0 +1,166 @@
+
+<section id="portfolio">
+    <div class="container" >
+        <h2><strong>Portfolio</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+        
+            <div class="col-lg-4 col-sm-12 " data-aos="flip-up">
+                <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                    <div  class="card-header d-flex flex-column " style="height: 300px;width: 100%; "  >    
+                        <div id="teamTraveler-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/covid.png)'}" >
+                        </div>
+                        <div id="teamTraveler-link" class="links mt-auto d-flex justify-content-center">
+                            <a href="assets/images/covid.png" data-gall="teamTravelerGallery" class="venobox vbox-item" title="Mes Voyages"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="assets/images/covid.png" data-gall="teamTravelerGallery" class="venobox vbox-item" title="Détail du voyage"></a>
+                            <a href="assets/images/logements.webp" data-gall="teamTravelerGallery" class="venobox vbox-item" title="Mes Logements"></a>
+                            <a href="https://play.google.com/store/apps/details?id=team.traveler.teamtraveler" title="Télécharger sur Google Play" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                            <h3 class="card-title">CoViD-19 Research Design Contest</h3>
+                            <h5 class="card-title"><strong>Skills:</strong>  </h5>
+                            <p class="card-text">SolidWorks, HTML5, CSS, Injection Molding</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="/src/assets/Final Write-Up Covid19.pdf" target="_blank" target="_blank" type="button" class="btn btn-primary mr-3">Docs</a> 
+                                <button (click)="detailOnClick('teamTraveler')" type="button" class="btn btn-primary">Project Details</button>
+                            </div>
+                            <div *ngIf="teamTravelerIsShown" class="mt-3">
+                              <p>Led a team of cross functional engineers from multiple universities in the 2020 John Hopkins/ Stanford COVID-19 Design contest to develop solutions to slow the spread of CoVid-19 in regions where clean water is not accessible.</p>
+                              <br><p>Full documentation of our project write up and deliverbales can be found below:</p><br>
+                              <a href="/src/assets/Final Write-Up Covid19.pdf" target="_blank">Project Publication</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12"  data-aos="flip-up">
+                <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+
+                    <div  class="card-header d-flex flex-column " style="height: 300px;width: 100%; "  >    
+                        <div  id="mautic-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/matlabLogo.png)'}" >
+
+                        </div>
+                        <div id="mautic-link" class="links mt-auto d-flex justify-content-center">
+                            <a href="assets/images/matlabLogo.png" data-gall="MauticGallery" class="venobox vbox-item" title="Compagnes de marketing"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="assets/images/matlabLogo.png" data-gall="MauticGallery" class="venobox vbox-item" title="Détail de la compagne"></a>
+                            <a href="assets/images/email-detail.jpg" data-gall="MauticGallery" class="venobox vbox-item" title="Performance d'un émail"></a>
+                            <a href="assets/images/asset-detail.jpg" data-gall="MauticGallery" class="venobox vbox-item" title="Performance d'un Asset"></a>
+                            <a href="#portfolio" title="En cours" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">MatLab Algorithms</h3>
+                        <h5 class="card-title"><strong>Skills:</strong>  </h5>
+                        <p class="card-text">MatLab, Linear Algebra, Calculus, Matrixes</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="https://github.com/kirkrussell2/matlab" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a> 
+                            <button (click)="detailOnClick('mauticMonitoring')"  type="button" class="btn btn-primary">Project Details</button>
+                        </div>
+                        <div *ngIf="mauticMonitoringIsShown" class="mt-3">
+                          <p>
+                            <a href="https://github.com/kirkrussell2/matlab/tree/main/EarthQuakeSim" target="_blank">Earth Quake Simulation</a><br>
+                            <a href="https://github.com/kirkrussell2/matlab/tree/main/LeastSqRegression" target="_blank">Least Square Regression</a><br>
+                            <a href="https://github.com/kirkrussell2/matlab/tree/main/LinearRegressionWithTransformation" target="_blank">Linear Regression with Transformations</a><br>
+                            <a href="https://github.com/kirkrussell2/matlab/tree/main/SolarCellAngle" target="_blank">Solar Cell Face Angle Optimization</a><br>                                                                                                                                         <a href="https://github.com/kirkrussell2/matlab/tree/main/numDifferentiation" target="_blank">Numerical Differentiation with Unequally-Spaced Data Using Lagrange Interpolating Polynomial</a><br>
+                            <a href="https://github.com/kirkrussell2/matlab/tree/main/SystemOfODEs" target="_blank">Numerical Differentiation with Unequally-Spaced Data Using Lagrange Interpolating Polynomial</a><br>
+
+                          </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12"  data-aos="flip-up">
+                <div class="card shadow-lg p-3  bg-white rounded">
+                    <div  class="card-header d-flex flex-column " style="height: 300px;width: 100%; "  >    
+                        <div id="pokedex-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/chronograph.JPEG)'}" >
+
+                        </div>
+                        <div id="pokedex-link" class="links mt-auto d-flex justify-content-center">
+                            <a href="assets/images/chronograph.JPEG" data-gall="pokedexGallery" class="venobox vbox-item" title="Pokedex"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="assets/images/chronograph.JPEG" data-gall="pokedexGallery" class="venobox vbox-item" title="Trainers"></a>
+                            <a href="assets/images/profile-trainer.png" data-gall="pokedexGallery" class="venobox vbox-item" title="Profile"></a>
+                           
+                            <a href="#portfolio" title="Indisponible" ><i class="bx bx-link bx-md"></i></a>
+                        </div>
+                    </div>
+                   
+                    <div class="card-body">
+                        <h3 class="card-title">Chronograph</h3>
+                        <h5 class="card-title"><strong>Skills:</strong> </h5>
+                        <p class="card-text">Arduino, C++, Solidowrks, Word, Circuit Dev</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="https://github.com/kirkrussell2/Chronograph" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a> 
+                            <button (click)="detailOnClick('pokedex')" type="button" class="btn btn-primary">Project Details</button>
+                        </div>
+                        <div *ngIf="pokedexIsShown" class="mt-3">
+                            <p>Designed and built chronograph using photo resistors in reverse bias to measure obejcts speed traveling between two gates</p><br>
+                            <a href="https://docs.google.com/document/d/1lWCLqQiGERmOWN9WFyKvgWWhlAZwIW0O/edit?usp=sharing&ouid=108516033178607528691&rtpof=true&sd=true" target="_blank">Final Documentation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12"  data-aos="flip-up">
+                <div class="card shadow-lg p-3 mb-5 bg-white rounded"> 
+              
+                    <div  class="header d-flex flex-column " style="height: 300px;width: 100%; "  >    
+                        <div id="portfolio-img" class="img-wrap card-header" style="height: 300px;width: 100%;" [ngStyle]="{backgroundImage:'url(assets/images/ChainCrawler.JPG)'}" >
+                        </div>
+                        <div id="portfolio-link" class="links d-flex justify-content-center" >
+                            <a href="assets/images/ChainCrawler.JPG" data-gall="portfolioGallery" class="venobox vbox-item" title="Portfolio"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640" title="Article" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+             
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Chain Crawler</h3>
+                        <h5 class="card-title"><strong>Skills:</strong>  </h5>
+                        <p class="card-text">SolidWorks, Lathe, Mill, Circuit Dev, Design</p>
+                        
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="https://docs.google.com/document/d/1IwvYCIZSFz9h7Ztk4llgPh7CewzVCVVTDpc--FHz7MU/edit?usp=sharing" target="_blank" type="button" class="btn btn-primary mr-3">Docs</a> 
+                            <button (click)="detailOnClick('portfolio')"  type="button" class="btn btn-primary">Project Details</button>
+                        </div>
+                    
+                        <div *ngIf="portfolioIsShown" class="mt-3">
+                         <p>Worked as the project manager for mech 202 engineering course. Tasked with desinging and building a device could travel across a 1 meter chain with slack in the middle in the shortest time possible. Our team took 1st place in the Walter Scott Jr. College of Mechanical Engineering</p>
+                         <a href="https://docs.google.com/document/d/1IwvYCIZSFz9h7Ztk4llgPh7CewzVCVVTDpc--FHz7MU/edit">Full documentation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12"  data-aos="flip-up">
+                <div class="card shadow-lg p-3 mb-5 bg-white rounded"> 
+              
+                    <div  class="header d-flex flex-column " style="height: 300px;width: 100%; "  >    
+                        <div id="riddle-img" class="img-wrap card-header" style="height: 300px;width: 100%;" [ngStyle]="{backgroundImage:'url(assets/images/basketballeff.PNG)'}" >
+                        </div>
+                        <div id="riddle-link" class="links d-flex justify-content-center" >
+                            <a href="assets/images/basketballeff.PNG" data-gall="riddleGallery" class="venobox vbox-item" title="riddle"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="https://transfer-riddle-solver.herokuapp.com/index.html" title="Lien" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+             
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Basketball Efficiency Program</h3>
+                        <h5 class="card-title"><strong>Technologies:</strong>  </h5>
+                        <p class="card-text">Java, Basketball, Algebra</p>
+                        
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="https://github.com/kirkrussell2/BasketballEff" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a> 
+                            <button (click)="detailOnClick('riddleIsShown')"  type="button" class="btn btn-primary">Project Details</button>
+                        </div>
+                    
+                        <div *ngIf="riddleIsShown" class="mt-3">
+                          <p>
+                            In high school, I used my technical and athletic skills to contribute to my basketball team. I utilized Java to develop a basketball statistics program to analyze and optimize our player time and efficiency on the court which helped make our team more successful.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
